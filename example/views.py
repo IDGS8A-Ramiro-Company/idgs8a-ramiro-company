@@ -7,3 +7,6 @@ from django.http import HttpResponse
 def index(request):
     now = datetime.now()
     return render(request,'example/index.html', {"current_time":now})
+def Template(request):
+    now = datetime.now()
+    return render(request,'template/template.html', {"current_time":now})
