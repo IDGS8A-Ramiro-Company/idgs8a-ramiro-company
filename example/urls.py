@@ -7,5 +7,5 @@ from example.views import Template
 
 urlpatterns = [
     path('', index),
-    path('admin/template', Template)
+    path('template', Template)
 ]
