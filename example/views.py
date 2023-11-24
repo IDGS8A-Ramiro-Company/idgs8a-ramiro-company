@@ -6,4 +6,4 @@ from django.http import HttpResponse
 
 def index(request):
     now = datetime.now()
-    return render(request,'example/index.html', {"current_time":now})
+    return render(request,'../index.html', {"current_time":now})
